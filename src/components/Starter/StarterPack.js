@@ -1,7 +1,6 @@
 import React from 'react'
 import {Button, Modal, Container} from 'react-bootstrap'
 import './StarterPack.css'
-import StarterImage from '../../assets/playerCards/lynch_marshawn.png'
 
 class StarterPack extends React.Component{
 
