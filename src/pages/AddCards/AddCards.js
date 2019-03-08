@@ -6,8 +6,12 @@ import Cards from '../../components/Cardd/Cards'
 const playerComponent = playersData.map(playerData => <Col sm={4} > <Cards key={playerData} data={playerData} /> <br/> </Col>)
 
 class AddCards extends React.Component {
+  constructor(props){
+    super(props);
+    this.sectionTitle = props.sectionTitle;
+  }
 
-    render() {
+    render(props) {
       return (
         <Container>
           <div>
