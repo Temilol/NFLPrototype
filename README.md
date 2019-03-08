@@ -42,7 +42,7 @@ The app first launch on a homepage with no card available
 
 ## Versioning
 
-We used bitbucket for our versioning. 
+We used bitbucket for our versioning.
 
 ## License
 
