@@ -1,9 +1,9 @@
 import React from 'react';
-import {Container } from 'react-bootstrap';
+import {Container, Col} from 'react-bootstrap';
 import playersData from '../../assets/data/playerCards'
 import Cards from '../../components/Cardd/Cards'
 
-const playerComponent = playersData.map(playerData => <Cards key={playerData} data={playerData} />)
+const playerComponent = playersData.map(playerData => <Col sm={4} > <Cards key={playerData} data={playerData} /> <br/> </Col>)
 
 class AddCards extends React.Component {
 
@@ -11,7 +11,7 @@ class AddCards extends React.Component {
       return (
         <Container>
           <div>
-            <h1>AddCards</h1>
+            <h2>Starting Lineup</h2>
             {playerComponent}
           </div>
         </Container>

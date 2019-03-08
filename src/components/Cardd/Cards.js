@@ -8,7 +8,7 @@ class Cards extends React.Component {
       <Card style={{ width: '15rem' }}>
         <Card.Body>
           <Card.Title>{this.props.data.first_name} {this.props.data.last_name}</Card.Title>
-          <Card.Img variant="top" src={this.props.data.card_image} />
+          <Card.Img variant="top" src={this.props.data.card_image}  />
           <Card.Text>
           </Card.Text>
         </Card.Body>
