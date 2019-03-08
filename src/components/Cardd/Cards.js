@@ -1,18 +1,19 @@
 import React from 'react'
 import {Card, Button} from 'react-bootstrap'
+import './Cards.css'
+
+// <Card style={{ width: '13rem' }}>
+//   <Card.Body>
+//     <Card.Img variant="top" src={this.props.data.card_image}  />
+//   </Card.Body>
+// </Card>
 
 class Cards extends React.Component {
   render() {
-    console.log(this.props.data.card_image);
     return (
-      <Card style={{ width: '15rem' }}>
-        <Card.Body>
-          <Card.Title>{this.props.data.first_name} {this.props.data.last_name}</Card.Title>
-          <Card.Img variant="top" src={this.props.data.card_image}  />
-          <Card.Text>
-          </Card.Text>
-        </Card.Body>
-      </Card>
+      <div>
+        <img className="cardStyle" src={this.props.data.card_image} />
+      </div>
     )
   }
 }

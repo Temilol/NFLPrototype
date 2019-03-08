@@ -17,6 +17,7 @@ class AddCards extends React.Component {
           <div>
             <h2>Starting Lineup</h2>
             {playerComponent}
+            <hr/>
           </div>
         </Container>
     )}
