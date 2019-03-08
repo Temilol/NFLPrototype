@@ -38,9 +38,7 @@ class StarterPack extends React.Component{
              <Modal.Title className="nameStyle">Starter Pack</Modal.Title>
            </Modal.Header>
            <Modal.Body>
-            <Container>
               <img className="imageStyle" src={"./playerCards/lynch_marshawn.png"} alt="Starter Icon" />
-            </Container>
            </Modal.Body>
            <Modal.Footer  className="buttonStyle">
              <Button size="lg" variant="secondary" href={"/cards"}>
