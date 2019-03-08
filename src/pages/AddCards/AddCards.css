@@ -2,10 +2,16 @@
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
-
-  .cardStyles {
-    display: inline-block;
+  -webkit-overflow-scrolling: touch;
+  &::-webkit-scrollbar {
+    display: none;
   }
+}
+
+
+
+.cardStyles {
+  display: inline-block;
 }
 
 .cardStyle {
