@@ -40,7 +40,7 @@ class StarterPack extends React.Component{
            </Modal.Header>
            <Modal.Body>
             <Container>
-              <img className="imageStyle" src={StarterImage} alt="Starter Icon" />
+              <img className="imageStyle" src={"./playerCards/lynch_marshawn.png"} alt="Starter Icon" />
             </Container>
            </Modal.Body>
            <Modal.Footer  className="buttonStyle">

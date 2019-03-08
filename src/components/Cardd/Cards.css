@@ -1,5 +1,6 @@
 .cardStyle {
-  height: 140px;
-  width: 111px;
+  height: 240px;
+  width: 161px;
   box-shadow: 0 2px 4px 0 rgba(82,84,86,0.25);
+  margin-bottom: 10px
 }
