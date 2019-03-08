@@ -1,0 +1,13 @@
+.nameStyle {
+  text-align: center;
+}
+
+.buttonStyle {
+  display: flex;
+  justify-content: center;
+}
+
+.imageStyle {
+  display: flex;
+  justify-content: center;
+}
