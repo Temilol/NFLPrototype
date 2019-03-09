@@ -1,17 +1,26 @@
 import React from 'react';
 import {Container } from 'react-bootstrap';
-
-
+import NavigationBar from '../../components/Nav/NavigationBar'
+import StarterPack from '../../components/Starter/StarterPack'
 
 class Home extends React.Component {
 
     render() {
       return (
-        <Container>
-          <div>
-            <h1>HomePage</h1>
-          </div>
-        </Container>
+        <div>
+          <NavigationBar />
+          <Container>
+            <hr/>
+              <h2>Starting Lineup</h2>
+            <hr/>
+              <p>No cards Available</p>
+            <hr/>
+              <h2>My Cards</h2>
+            <hr/>
+              <p>No cards Available</p>
+            <StarterPack className="buttonStyle" />
+          </Container>
+        </div>
     )}
 };
 

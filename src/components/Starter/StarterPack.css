@@ -1,0 +1,15 @@
+.nameStyle {
+  margin-left: 30%;
+}
+
+.buttonStyle {
+  display: flex;
+  justify-content: center;
+}
+
+.imageStyle {
+  height: 85%;
+  width: 50%;
+  margin-left: 25%;
+  box-shadow: 0 2px 4px 0 rgba(82,84,86,0.25);
+}
