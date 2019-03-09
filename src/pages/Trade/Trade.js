@@ -42,18 +42,16 @@ class Trade extends React.Component {
           <Container>
             <hr/>
               <h3>My Cards</h3>
+            <hr/>
               {personalComponent}
-              <p></p>
             <hr/>
-
-
+              <h3>The Market</h3>
             <hr/>
-            <h3>The Market</h3>
-              <div className="scrolling-wrapper">
-                <div className="cardStyles">
-                  {marketComponent}
-                </div>
+            <div className="scrolling-wrapper">
+              <div className="cardStyles">
+                {marketComponent}
               </div>
+            </div>
             <hr/>
 
 

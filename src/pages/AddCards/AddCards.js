@@ -46,6 +46,7 @@ class AddCards extends React.Component {
               {personalComponent}
             </div>
           </div>
+          <hr/>
         </Container>
       </div>
     )}
