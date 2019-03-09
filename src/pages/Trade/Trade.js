@@ -27,7 +27,7 @@ class Trade extends React.Component {
 
             <hr/>
             <h3>The Market</h3>
-              <img src={Cards}/>
+              <img src={Cards} alt="Market"/>
             <hr/>
 
 

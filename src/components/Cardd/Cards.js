@@ -1,6 +1,5 @@
 import React from 'react'
 import './Cards.css'
-import $ from 'jquery';
 // const waitingForSwap = false;
 
 // function getCard() {
@@ -102,7 +101,7 @@ class Cards extends React.Component {
 
 
     return (
-        <img className="cardStyle" id={this.props.id} onMouseLeave={this.handleButtonRelease} onMouseUp={this.handleButtonRelease} onMouseDown={this.handleButtonPress} onClick={this.handleClick} src={this.props.data.card_image} alt="player" />
+        <img className="cardStyle" id={this.props.id} onMouseLeave={this.handleButtonRelease} onMouseUp={this.handleButtonRelease} onMouseDown={this.handleButtonPress} onClick={this.handleClick} onTouchStart={this.handleButtonPress} onTouchEnd={this.handleButtonRelease} src={this.props.data.card_image} alt="player" />
 
   );
   }

@@ -1,5 +1,5 @@
 import React from 'react'
-import {Navbar, Nav, Button} from 'react-bootstrap'
+import {Navbar, Nav} from 'react-bootstrap'
 import './NavigationBar.css'
 
 const navbar={
@@ -10,12 +10,12 @@ const navlinks={
 }
 class NavigationBar extends React.Component {
   render() {
-    const camera = <input type="file" accept="image/*" capture="camera"/>
+    // const camera = <input type="file" accept="image/*" capture="camera"/>
 
-    const openCamera = () => {
-      console.log("Working");
-      camera.click();
-    }
+    // const openCamera = () => {
+    //   console.log("Working");
+    //   camera.click();
+    // }
 
     return(
       <Navbar style={navbar} expand="lg" className="NavbarEx">

@@ -1,6 +1,5 @@
 import React from 'react';
 import {Container } from 'react-bootstrap';
-import NavigationBar from '../../components/Nav/NavigationBar'
 // import NavWithTabs from '../../components/tabs/tab'
 import StarterPack from '../../components/Starter/StarterPack'
 
