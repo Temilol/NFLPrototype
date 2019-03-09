@@ -1,3 +1,6 @@
 .NavbarEx {
   margin-bottom: 30px;
 }
+#navbar {
+  background-color: red;
+}
