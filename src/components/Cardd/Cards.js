@@ -43,7 +43,7 @@ class Cards extends React.Component {
         document.getElementById('swapModeActived').id = 'swapMode';
 
       } else if(waitingForSwap === true){
-          document.getElementById(currID).style.border = '4px solid blue';
+          // document.getElementById(currID).style.border = '4px solid blue';
           document.getElementById(currID).style.height = '77%';
           document.getElementById(currID).style.width = '22%';
       }
@@ -52,6 +52,7 @@ class Cards extends React.Component {
       swaps.push(lineupID);
       swaps.push(currID);
       console.log("SWAPS: " + swaps);
+      alert("Swapping...\n This will take a few minutes.  Check back soon!");
       document.removeEventListener('mousedown',getCard, waitingForSwap);
     }
     document.addEventListener('mousedown', getCard, waitingForSwap);
@@ -62,7 +63,7 @@ class Cards extends React.Component {
     clearTimeout(this.buttonPressTimer);
   }
   handleButtonPress() {
-    this.buttonPressTimer = setTimeout(()=> this.handleHold(),2000);
+    this.buttonPressTimer = setTimeout(()=> this.handleHold(),1000);
   }
 
   handleClick() {
@@ -91,8 +92,8 @@ class Cards extends React.Component {
         this.handleSwap(this.props.id,swaps,this.state.waitingForSwap);
 
         document.getElementById(this.props.id).style.border = '4px solid red';
-        document.getElementById(this.props.id).style.height = '77%';
-        document.getElementById(this.props.id).style.width = '22%';
+        document.getElementById(this.props.id).style.height = '79%';
+        document.getElementById(this.props.id).style.width = '24%';
       }
     }
   }
