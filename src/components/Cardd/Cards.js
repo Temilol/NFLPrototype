@@ -101,12 +101,12 @@ class Cards extends React.Component {
       }
     }
   }
-
   render() {
 
+    console.log(this.props.flag);
 
     return (
-        <img className="cardStyle" id={this.props.id} onMouseLeave={this.handleButtonRelease} onMouseUp={this.handleButtonRelease} onMouseDown={this.handleButtonPress} onClick={this.handleClick} onTouchStart={this.handleButtonPress} onTouchEnd={this.handleButtonRelease} src={this.props.data.card_image} alt="player" />
+        <img className="cardStyle" id={this.props.id} onMouseLeave={this.handleButtonRelease} onMouseUp={this.handleButtonRelease} onMouseDown={this.handleButtonPress} onClick={this.props.flag ? null :this.handleClick} onTouchStart={this.handleButtonPress} onTouchEnd={this.handleButtonRelease} src={this.props.data.card_image} alt="player" />
 
   );
   }

@@ -26,8 +26,8 @@ function shuffle(temp) {
 
 
 
-const personalComponent = playersData.map(playerData => <Cards key={playerData.id} data={playerData} />)
-const marketComponent = shuffle(playersData.map(playerData => <Cards key={playerData.id} data={playerData} />))
+const personalComponent = playersData.map(playerData => <Cards key={playerData.id} data={playerData} flag= {true} />)
+const marketComponent = shuffle(playersData.map(playerData => <Cards key={playerData.id} data={playerData} flag= {true} />))
 
 // var market = personalComponent;
  // market = shuffle(market);
