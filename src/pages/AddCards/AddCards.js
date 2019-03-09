@@ -3,6 +3,7 @@ import {Container} from 'react-bootstrap';
 import playersData from '../../assets/data/playerCards'
 import Cards from '../../components/Cardd/Cards'
 import './AddCards.css'
+import NavigationBar from '../../components/Nav/NavigationBar'
 
 
 
@@ -17,6 +18,8 @@ class AddCards extends React.Component {
 
     render() {
       return (
+        <div>
+        <NavigationBar />
         <Container>
           <hr/>
             <h2>Starting Lineup</h2>
@@ -30,8 +33,8 @@ class AddCards extends React.Component {
               {personalComponent}
             </div>
           </div>
-
         </Container>
+      </div>
     )}
 };
 

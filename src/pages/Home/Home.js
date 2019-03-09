@@ -10,6 +10,14 @@ class Home extends React.Component {
         <div>
           <NavigationBar />
           <Container>
+            <hr/>
+              <h2>Starting Lineup</h2>
+            <hr/>
+              <p>No cards Available</p>
+            <hr/>
+              <h2>My Cards</h2>
+            <hr/>
+              <p>No cards Available</p>
             <StarterPack className="buttonStyle" />
           </Container>
         </div>
