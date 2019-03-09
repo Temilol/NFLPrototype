@@ -1,5 +1,5 @@
 import React from 'react'
-import {Button, Modal, Container} from 'react-bootstrap'
+import {Button, Modal} from 'react-bootstrap'
 import './StarterPack.css'
 
 class StarterPack extends React.Component{

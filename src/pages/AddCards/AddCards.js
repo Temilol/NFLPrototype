@@ -35,6 +35,7 @@ class AddCards extends React.Component {
         <Container>
           <hr/>
             <h2 id="here">Starting Lineup</h2>
+            <div id="swapMode"></div>
             <button>Swap</button>
           <hr/>
           {playerComponent}
