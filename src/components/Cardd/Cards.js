@@ -73,7 +73,8 @@ class Cards extends React.Component {
     if(document.getElementById('awaitingSwap') || document.getElementById('swapModeActived')){
       this.setState({waitingForSwap:true});
     }else if (!this.state.waitingForSwap) {
-      alert("Opening AR");
+      // alert("Opening AR");
+      window.open("https://037g.app.link/2019hbotb");
     }else if(!this.state.isLineup){
       this.setState({waitingForSwap:true});
     }
