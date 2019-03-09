@@ -27,8 +27,10 @@ class Cards extends React.Component {
   handleSwap(lineupID,swaps,waitingForSwap) {
     function getCard(event) {
       var currID = event.target.id;
+      var reset = false;
       if(currID <= 11 && waitingForSwap === true) {
         alert("Player already in starting lineup");
+        reset = true;
         if(currID == null){
           document.getElementById(currID).style.border = '0';
           document.getElementById(currID).style.height = '75%';
@@ -51,7 +53,9 @@ class Cards extends React.Component {
       swaps.push(lineupID);
       swaps.push(currID);
       console.log("SWAPS: " + swaps);
-      alert("Swapping...\n This will take a few minutes.  Check back soon!");
+      if(!reset){
+        alert("Swapping...\n This will take a few minutes.  Check back soon!");
+      }
       document.removeEventListener('mousedown',getCard, waitingForSwap);
     }
     document.addEventListener('mousedown', getCard, waitingForSwap);
