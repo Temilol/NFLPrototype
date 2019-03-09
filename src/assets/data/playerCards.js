@@ -7,9 +7,9 @@ const playerCards = [
   {id: 6, first_name: "Elandom", last_name: "Roberts", rating: 0, jersey_number: 52, tier: "Silver", team: "Oakland Raiders", position:"WR", card_image: './playerCards/roberts_elandon.png'  },
   {id: 7, first_name: "Calvin", last_name: "Ridley", rating: 0, jersey_number: 18, tier: "Silver", team: "Oakland Raiders", position:"WR", card_image: './playerCards/ridley_calvin.png'  },
   {id: 8, first_name: "Fabian", last_name: "Moreau", rating: 0, jersey_number: 31, tier: "Silver", team: "Washington Redskins", position:"CB", card_image: './playerCards/moreau_fabian.png'  },
-  {id: 9, first_name: "Fabian", last_name: "Moreau", rating: 0, jersey_number: 31, tier: "Silver", team: "Washington Redskins", position:"CB", card_image: './playerCards/moreau_fabian.png'  },
-  {id: 10, first_name: "Fabian", last_name: "Moreau", rating: 0, jersey_number: 31, tier: "Silver", team: "Washington Redskins", position:"CB", card_image: './playerCards/moreau_fabian.png'  },
-  {id: 11, first_name: "Fabian", last_name: "Moreau", rating: 0, jersey_number: 31, tier: "Silver", team: "Washington Redskins", position:"CB", card_image: './playerCards/moreau_fabian.png'  },
+  {id: 9, first_name: "Walter", last_name: "Payton", rating: 0, jersey_number: 34, tier: "Legendary", team: "Chicago Bears", position:"RB", card_image: './playerCards/moreau_fabian.png'  },
+  {id: 10, first_name: "Dan", last_name: "Marino", rating: 0, jersey_number: 13, tier: "Legendary", team: "Miami Dolphins", position:"QB", card_image: './playerCards/moreau_fabian.png'  },
+  {id: 11, first_name: "Lawrence", last_name: "Taylor", rating: 0, jersey_number: 56, tier: "Legendary", team: "New York Giants", position:"LB", card_image: './playerCards/moreau_fabian.png'  },
   {id: 12, first_name: "Fabian", last_name: "Moreau", rating: 0, jersey_number: 31, tier: "Silver", team: "Washington Redskins", position:"CB", card_image: './playerCards/moreau_fabian.png'  },
   {id: 13, first_name: "Fabian", last_name: "Moreau", rating: 0, jersey_number: 31, tier: "Silver", team: "Washington Redskins", position:"CB", card_image: './playerCards/moreau_fabian.png'  },
   {id: 14, first_name: "Fabian", last_name: "Moreau", rating: 0, jersey_number: 31, tier: "Silver", team: "Washington Redskins", position:"CB", card_image: './playerCards/moreau_fabian.png'  }

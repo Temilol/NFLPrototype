@@ -1,5 +1,5 @@
 import React from 'react'
-import {Button, Modal, Container} from 'react-bootstrap'
+import {Button, Modal} from 'react-bootstrap'
 import './StarterPack.css'
 
 class StarterPack extends React.Component{
@@ -38,7 +38,7 @@ class StarterPack extends React.Component{
              <Modal.Title className="nameStyle">Starter Pack</Modal.Title>
            </Modal.Header>
            <Modal.Body>
-              <img className="imageStyle" src={"./playerCards/lynch_marshawn.png"} alt="Starter Icon" />
+              <img className="imageStyle" src={"./playerCards/starter_pack.png"} alt="Starter Icon" />
            </Modal.Body>
            <Modal.Footer  className="buttonStyle">
              <Button size="lg" variant="secondary" href={"/cards"}>

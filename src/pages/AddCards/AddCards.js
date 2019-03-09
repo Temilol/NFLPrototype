@@ -7,8 +7,10 @@ import NavigationBar from '../../components/Nav/NavigationBar'
 
 
 
-const playerComponent = playersData.slice(0,10).map(playerData => <Cards key={playerData.id} data={playerData} />)
-const personalComponent = playersData.map(playerData => <Cards key={playerData.id} data={playerData} />)
+// const playerComponent = playersData.slice(0,11).map(playerData => <Cards key={playerData.id} inLineup={true} id={playerData.id} data={playerData} />)
+const personalComponent = playersData.map(playerData => <Cards key={playerData.id} id={playerData.id} data={playerData} />)
+
+const playerComponent = personalComponent.slice(0,11);
 
 // const test = document.getElementsByClassName('App');
 // // aler
@@ -26,14 +28,14 @@ class AddCards extends React.Component {
     super(props);
     this.sectionTitle = props.sectionTitle;
   }
-
     render() {
       return (
         <div>
         <NavigationBar />
         <Container>
           <hr/>
-            <h2>Starting Lineup</h2>
+            <h2 id="here">Starting Lineup</h2>
+            <div id="swapMode"></div>
           <hr/>
           {playerComponent}
           <hr/>
@@ -44,12 +46,10 @@ class AddCards extends React.Component {
               {personalComponent}
             </div>
           </div>
+          <hr/>
         </Container>
       </div>
     )}
 };
-
-
-
 
 export default AddCards;

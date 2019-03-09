@@ -1,6 +1,6 @@
 import React from 'react';
 import {Container } from 'react-bootstrap';
-import NavigationBar from '../../components/Nav/NavigationBar'
+// import NavWithTabs from '../../components/tabs/tab'
 import StarterPack from '../../components/Starter/StarterPack'
 
 class Home extends React.Component {
@@ -8,7 +8,7 @@ class Home extends React.Component {
     render() {
       return (
         <div>
-          <NavigationBar />
+          {/*<NavigationBar />*/}
           <Container>
             <hr/>
               <h2>Starting Lineup</h2>

@@ -11,7 +11,7 @@ import AddCards from './pages/AddCards/AddCards.js';
 class App extends Component {
   render() {
     return (
-      <div className="App" id="prototype">
+      <div className="App">
         <BrowserRouter>
           <Switch>
             <Route path="/" component={Home} exact />

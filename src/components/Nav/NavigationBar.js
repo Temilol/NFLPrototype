@@ -1,24 +1,30 @@
 import React from 'react'
-import {Navbar, Nav, Button} from 'react-bootstrap'
+import {Navbar, Nav} from 'react-bootstrap'
 import './NavigationBar.css'
 
+const navbar={
+  backgroundColor: '#013369'
+}
+const navlinks={
+  color: 'white'
+}
 class NavigationBar extends React.Component {
   render() {
-    const camera = <input type="file" accept="image/*" capture="camera"/>
+    // const camera = <input type="file" accept="image/*" capture="camera"/>
 
-    const openCamera = () => {
-      console.log("Working");
-      camera.click();
-    }
+    // const openCamera = () => {
+    //   console.log("Working");
+    //   camera.click();
+    // }
 
     return(
-      <Navbar bg="light" expand="lg" className="NavbarEx">
-        <Navbar.Brand href="/">ProductName</Navbar.Brand>
+      <Navbar style={navbar} expand="lg" className="NavbarEx">
+        <Navbar.Brand style={navlinks} href="/">Trade 360</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/trade">Trade</Nav.Link>
+            <Nav.Link style={navlinks} href="/">Home</Nav.Link>
+            <Nav.Link style={navlinks} href="/trade">Trade</Nav.Link>
             <input type="file" accept="image/*" capture="camera"/>
           </Nav>
         </Navbar.Collapse>
