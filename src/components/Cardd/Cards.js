@@ -26,7 +26,6 @@ class Cards extends React.Component {
   }
 
   handleSwap(lineupID,swaps,waitingForSwap) {
-    // alert(waitingForSwap + "  yoooo");
     function getCard(event) {
       var currID = event.target.id;
       if(currID <= 11 && waitingForSwap === true) {
@@ -43,13 +42,11 @@ class Cards extends React.Component {
 
         document.getElementById('swapModeActived').id = 'swapMode';
 
-        // this.handleSwap(lineupID,swaps,this.state.waitingForSwap);
       } else if(waitingForSwap === true){
           document.getElementById(currID).style.border = '4px solid blue';
           document.getElementById(currID).style.height = '77%';
           document.getElementById(currID).style.width = '22%';
       }
-      // console.log(currID);
 
       document.getElementById('awaitingSwap').id = "here";
       swaps.push(lineupID);
@@ -69,13 +66,11 @@ class Cards extends React.Component {
   }
 
   handleClick() {
-    // console.log(!this.state.waitingForSwap);
     if(document.getElementById('awaitingSwap') || document.getElementById('swapModeActived')){
       this.setState({waitingForSwap:true});
     }else if (!this.state.waitingForSwap) {
       alert("Opening AR");
     }else if(!this.state.isLineup){
-      // alert("keef-->" + this.state.waitingForSwap);
       this.setState({waitingForSwap:true});
     }
   }
@@ -93,9 +88,7 @@ class Cards extends React.Component {
       }
       if(document.getElementById('here')){
         document.getElementById('here').id = "awaitingSwap";
-        // document.getElementById('swapMode').id = 'swapModeActived';
         this.handleSwap(this.props.id,swaps,this.state.waitingForSwap);
-        // alert("proper choice. choose next card");
 
         document.getElementById(this.props.id).style.border = '4px solid red';
         document.getElementById(this.props.id).style.height = '77%';
