@@ -25,7 +25,7 @@ class NavigationBar extends React.Component {
           <Nav className="mr-auto">
             <Nav.Link style={navlinks} href="/">Home</Nav.Link>
             <Nav.Link style={navlinks} href="/trade">Trade</Nav.Link>
-            <input type="file" accept="image/*" capture="camera"/>
+            <input type="file" accept="image/*" capture="camera" className="inputInfo"/>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
