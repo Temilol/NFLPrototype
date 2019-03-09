@@ -1,68 +1,53 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Trade360
 
-In the project directory, you can run:
+Trade360 is a Augmented reality solution that allows people engage more with the NFL, by following collecting cards, interacting with players using Augmented reality and using QR codes to add cards to their collection
 
-### `npm start`
+This version of Trade360 is tailored towards iOS mobile device and is best experienced when launched on a Google Chrome application of an iOS mobile device.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The app first launch on a homepage with no card available
+- The user select the `Get Cards` button to get their initial card pack
+- The starter park consists at least 11 players
+- The app transfer the user to their team page to view their team line up and information
+- The user starting lineup consists of 11 player
+- The full team can be seen on that same screen (Scrolling vertically through the `My Cards` Section) N.B: use two fingers to scroll (if using a touch device)
+- On the team screen, user can swap cards from their team sheet to the card roster
+- The app can also involves Trading, exchanging the user cards with Trending Cards.
+- The app also involves a QR code scanner which enables the user to scan new cards into their collection
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Clone the Trade360 from bitbucket
+- Move to the project directory
+- Run `npm install` in the terminal to install the dependency
+- Run `npm start` in the terminal to launch the product
+- A webpage should open automatically or you can assess the project using `http://localhost:3000`
+- It could be accessed from mobile phones using the `ip address` provided on the terminal
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React Js
+- NodeJS
+- Unity
+- Branch.io
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Built With
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* [ReactJS](https://reactjs.org/) - The web framework from Facebook
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Versioning
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+We used bitbucket for our versioning. 
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Acknowledgments
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+* Thank you HBCU Battle of the brains for the
